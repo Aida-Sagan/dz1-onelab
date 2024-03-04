@@ -9,9 +9,12 @@ const  NavigationLink = styled(Link)`
   padding: 10px 20px;
   border: 1px solid #756464;
   border-radius: 10px;
+  transition: transform ease 700ms;
 
   &:hover {
-    background-color: #f0f0f0;
+    background-color: rgba(37, 30, 29, 0.5);
+    color: #f0f0f0;
+    transform: scale(1.1);
   }
 `
 export default function Home() {
