@@ -1,6 +1,5 @@
 import styled from "styled-components"
 import {useNavigate} from "react-router-dom";
-import {useState} from "react";
 
 export default function Person({person}) {
     const navigateTo = useNavigate();
@@ -34,3 +33,4 @@ export default function Person({person}) {
 const StyledContainer = styled("div")`
     background-color: ${(props) => props.vip ? "green" : "red"};
 `
+
