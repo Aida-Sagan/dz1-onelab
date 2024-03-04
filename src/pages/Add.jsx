@@ -61,13 +61,12 @@ export default function Add() {
       margin-bottom: 10px;
       width: 100%;
       box-sizing: border-box;
-      color: #2C3E50;
+      color: #2665a1;
       font-size: 13px;
-     
+
 
       &:focus {
         border: 2px solid #d32d99;
-        outline: none;
         box-shadow: none;
         transition: border-color 0.5s ease-in;
       }

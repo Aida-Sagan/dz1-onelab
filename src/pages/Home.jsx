@@ -7,13 +7,14 @@ const  NavigationLink = styled(Link)`
   color: #3d3a3a;
   font-size: 18px;
   padding: 10px 20px;
-  border: 1px solid #756464;
+  border: 1px solid #b72424;
   border-radius: 10px;
   transition: transform ease 700ms;
+  background: #f8766c;
 
   &:hover {
-    background-color: rgba(37, 30, 29, 0.5);
-    color: #f0f0f0;
+    background-color: #c75a52;
+    color: #fff8f8;
     transform: scale(1.1);
   }
 `
